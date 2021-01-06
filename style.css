@@ -1,0 +1,231 @@
+* {
+  margin: 0px auto;
+  padding: 0px; 
+}
+
+                 /*  Menu Section */
+.container {
+  width: 1050px;
+}
+.container nav {
+  height: 91px;
+}
+.container nav ul {
+  float: right;
+  margin-top: 15px;
+}
+.container nav ul li {
+  list-style-type: none;
+  float: left;
+  padding: 18px;
+}
+.container nav ul li a{
+  text-decoration: none;
+    font-size: 18px;
+    color: #363958;
+    font-family: arial;
+    font-weight: 600;
+}
+.container nav ul li a:hover {
+  color: dimgray;
+}
+
+           /*  Banner Section */
+.container .banner_section {
+  width: 100%;
+  height: 442px;
+}
+.container .banner_section .banner_sec_left {
+  width: 350px;
+  height: 300px;
+  margin: 46px 34px;
+  float: left;
+}
+.container .banner_section .banner_sec_left h1 {
+  font-family: 'Bebas Neue';
+  font-size: 72px;
+  font-weight: 500;
+  color: #363958;
+  margin-bottom: -23px;
+}
+.container .banner_section .banner_sec_left h2 {
+  font-family: 'Bebas Neue';
+  font-size: 72px;
+  font-weight: 500;
+  color: #FF8367;
+}
+.container .banner_section .banner_sec_left p {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 55px;
+  color: dimgray;
+}
+.container .banner_section .banner_sec_left a {
+  background-image: linear-gradient( tomato, rgb(252, 121, 98));
+  color: white;
+  padding: 16px 45px;
+  font-size: 17px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.container .banner_section .banner_sec_right {
+  width: 388px;
+  height: 452px;
+  float: right;
+  margin-top: -40px;
+  margin-right: 58px;
+}
+.container .banner_section .banner_sec_right img {
+  width: 388px;
+  height: 452px;
+}
+
+       /* About Section */
+.container .about_section {
+  width: 100%;
+  height: 505px;
+  margin-top: 33px;
+}
+
+.container .about_section .about_sec_left {
+  width: 388px;
+  height: 452px;
+  float: left;
+  margin-left: 35px;
+  margin-right: 58px;
+}
+.container .about_section .about_sec_left img {
+  width: 388px;
+  height: 452px;
+}
+
+.container .about_section .about_sec_right {
+  width: 350px;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 23px;
+  margin-left: 17px;
+  margin-right: 40px;
+  float: right;
+}
+.container .about_section .about_sec_right h2 {
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+  color: #363958;
+  font-weight: 500;
+}
+.container .about_section .about_sec_right p {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 55px;
+  color: dimgray;
+  text-align: justify;
+}
+.container .about_section .about_sec_right a {
+  background-image: linear-gradient( tomato, rgb(252, 121, 98));
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 52px;
+  padding-right: 32px;
+  font-size: 17px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.container .about_section .about_sec_right i {
+  position: absolute;
+  color: white;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+       /* Project Section */
+.container .project_section {
+  width: 100%;
+  height: 613px;
+  margin-top: 85px;
+}
+.container .project_section h1 {
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+  color: #363958;
+  font-weight: 500;
+  text-align: center;
+}
+.container .project_section h1 .highlight {
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+  color: #F46060;
+  font-weight: 500;
+}
+.container .project_section .project {
+  width: 300px;
+  height: 308px;
+  overflow: hidden;
+  float: left;
+  margin-top: 21px;
+  margin-left: 21px;
+  margin-bottom: 21px;
+  margin-right: 21px;
+  border-radius: 14px;
+  box-shadow: 10px 10px 40px grey;
+}
+
+.container .project_section .project .image {
+  width: 290px;
+  height: 177px;
+  padding: 10px 5px;
+}
+.container .project_section .project .img_h2 {
+  font-size: 20px;
+  color: #363958;
+  font-family: sans-serif;
+  text-align: center;
+}
+.container .project_section .project .img_p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 13px;
+  color: dimgray;
+}
+       /* Inquiry Section */
+
+.container .inquiry_section {
+  width: 641px;
+  height: 160px;
+  margin-bottom: 110px;
+}
+.container .inquiry_section .inquiry {
+  width: 641px;
+  height: 160px;
+  position: relative;
+}
+.container .inquiry_section .inquiry img {
+  width: 641px;
+  height: 160px;
+}
+
+.container .inquiry_section .inquiry h2{
+  position: absolute;
+  top: 32%;
+  left: 7%;
+  color: white;
+  font-family: 'Bebas Neue';
+  font-size: 51px;
+  font-weight: 500;
+}
+.container .inquiry_section .inquiry a {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  background-color: #F46060;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
